@@ -10,8 +10,12 @@ const nextConfig: NextConfig = {
         source: "/",
         headers: [
           {
-            key: "Content-Security-Policy",
-            value: "frame-ancestors *"
+            key: 'X-Frame-Options',
+            value: 'ALLOWALL'
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: "frame-ancestors *" 
           }
         ]
       }
