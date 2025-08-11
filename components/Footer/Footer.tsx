@@ -188,7 +188,7 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                     className="transition-colors font-medium"
                                 >
-                                    Elif Özge
+                                    Elif Özge Vurmaz
                                 </a>
                             </div>
                         </div>
